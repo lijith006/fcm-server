@@ -1,4 +1,10 @@
 node_modules/
 .env
-*.json
 .DS_Store
+
+# Block Firebase service account files
+*firebase*.json
+*adminsdk*.json
+
+# But allow package.json
+!package.json
