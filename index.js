@@ -109,12 +109,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
-```
-
-#### 2.4: Create `.gitignore`
-
-Create `.gitignore` file:
-```
-node_modules/
-.env
-*.json
